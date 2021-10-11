@@ -1,0 +1,12 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/samyak/Desktop/FreshmanYear/CS126/CLionWorkspace/cinder_0.9.2_mac/my-projects/naivebayes-samyakjain11-f4f4ece543e3bc78596b894ead37c7f91e567fc4
+CMake Error: The current CMakeCache.txt directory /Users/samyak/Desktop/FreshmanYear/CS126/CLionWorkspace/cinder_0.9.2_mac/my-projects/naivebayes-samyakjain11-f4f4ece543e3bc78596b894ead37c7f91e567fc4/cmake-build-debug/_deps/catch2-subbuild/CMakeCache.txt is different than the directory /Users/samyak/Desktop/naivebayes-samyakjain11-f4f4ece543e3bc78596b894ead37c7f91e567fc4/cmake-build-debug/_deps/catch2-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FetchContent.cmake:900 (message):
+  CMake step for catch2 failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FetchContent.cmake:1003 (__FetchContent_directPopulate)
+  CMakeLists.txt:41 (FetchContent_Populate)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/samyak/Desktop/FreshmanYear/CS126/CLionWorkspace/cinder_0.9.2_mac/my-projects/naivebayes-samyakjain11-f4f4ece543e3bc78596b894ead37c7f91e567fc4/cmake-build-debug/CMakeFiles/CMakeOutput.log".
